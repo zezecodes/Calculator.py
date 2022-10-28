@@ -27,14 +27,14 @@ def multiplication():
     productVal2 = int(input("Now the multiplier: "))
     multiplicationNumber1 = productVal1
     multiplicationNumber2 = productVal2
-    return print("The product is: "+str(productVal1*productVal2))
+    print("The product is: "+str(productVal1*productVal2))
 
 operationInput = input("Please input the operation you want to use on your values(+ _ * /): ")
 if operationInput == "+":    
-    print(addition())
+    addition()
 elif operationInput == "-":
-    print(subtraction())
+    subtraction()
 elif operationInput == "*":
-    print(multiplication())
+    multiplication()
 elif operationInput == "/":
-    print(division())
+    division()
