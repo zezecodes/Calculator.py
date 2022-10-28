@@ -20,7 +20,7 @@ def division():
     divisionNumber1 = quotientVal1
     divisionNumber2 = quotientVal2
 
-    return print("The quotient is: "+str(diffVal1 - diffVal2))
+    return print("The quotient is: "+str(quotientVal1 / quotientVal2))
 
 def multiplication():
     diffVal1 = int(input("Please input the value you want to subtract: "))
