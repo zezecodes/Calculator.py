@@ -7,8 +7,8 @@ def addition():
     return print("The sum is: "+str(sumVal1 + sumVal2))
     
 def subtraction():
-    diffVal1 = int(input("Please input the first value you want to sum up: "))
-    diffVal2 = int(input("Now input the second: "))
+    diffVal1 = int(input("Please input the value you want to subtract: "))
+    diffVal2 = int(input("Now input the value you want to subtract from: "))
     subtractNumber1 = diffVal1
     subtractNumber2 = diffVal2
 
@@ -20,7 +20,7 @@ def division():
     subtractNumber1 = diffVal1
     subtractNumber2 = diffVal2
 
-    return print("The quotient is: "+(x/y))
+    return print("The quotient is: "+str(diffVal1 - diffVal2))
 
 def multiplication():
     return print("The product is: "+(x*y))
