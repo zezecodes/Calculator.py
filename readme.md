@@ -1,1 +1,2 @@
-# now to add this to github
+# Calculator.py
+# Basic calculator programmed in python
