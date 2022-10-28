@@ -23,11 +23,11 @@ def division():
     return print("The quotient is: "+str(quotientVal1 / quotientVal2))
 
 def multiplication():
-    diffVal1 = int(input("Please input the value you want to subtract: "))
-    diffVal2 = int(input("Now input the value you want to subtract from: "))
-    subtractNumber1 = diffVal1
-    subtractNumber2 = diffVal2
-    return print("The product is: "+(x*y))
+    productVal1 = int(input("Please input the multipicand: "))
+    productVal2 = int(input("Now the multiplier: "))
+    multiplicationNumber1 = productVal1
+    multiplicationNumber2 = productVal2
+    return print("The product is: "+str(productVal1*productVal2))
 
 operationInput = input("Please input the operation you want to use on your values(+ _ * /): ")
 if operationInput == "+":    
